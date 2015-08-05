@@ -1,0 +1,163 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+p,hr,img{
+	margin: 0px;
+	padding:0px;
+}
+hr{
+	background:#fff; 
+}
+iframe{
+	width: 100%;
+}
+.head-content{
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+.photo{
+	height: 320px;
+	overflow: hidden;
+	width: 100%;
+	background-color: #000;
+}
+.user-photo{
+	width: 100%;
+}
+
+.mask{
+	height: 320px;
+	z-index: 999;
+	width: 100%;
+}
+.top{
+	height: auto;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.demo-logo{
+	width: 104px;	
+	height: 56px;
+	top:13px;
+	left: 20px;
+	margin: 0px;
+	position: absolute;
+}
+.demo-content{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 200px;
+	z-index: 999;
+	margin-top: 50px;
+
+}
+.title-name{
+	color: #fff;
+	font-size: 20px;
+	text-align:	center;
+}
+
+.user-name{
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	margin-top: 0px;
+	font-family: Arial,Georgia,Serif;
+}
+.demo-date{
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 34px;
+	color: #fff;
+	font-size: 10px;
+	margin-top: 0px;
+	font-family:Arial, Georgia,Serif;
+}
+ 
+
+.audio-content{
+
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+.audioline{
+	width: 240px;
+	margin-top: 26px;
+	background-color: #edeeee;
+	border-radius: 1px;
+	height: 4px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.timebar{
+	margin-top: 26px;
+	height: 4px;
+	width: 0px;
+	border-radius: 2px;
+	background-color: #4fc5d3;
+}
+#audioplay{
+	width: 40px;
+    position: relative;
+    padding-left: 24px;
+    margin-top: -18px;
+}
+#playbtn{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.article-content{
+	background: #fff;
+	margin-bottom: 120px;
+}
+.demo-name{
+	margin-top: 10px;
+	font-size: 16px;
+	text-align:	center;
+}
+.demo-about{
+	font-size: 15px;
+	color: #89898a;
+	line-height: 22px;
+}
+.text-content{
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+.lyrics{
+	margin-top: 32px;
+	text-align: center;
+	font-size: 15px;
+	color: #89898a;
+	line-height: 22px;
+}
+
+.download{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	bottom:0px;
+	position: fixed;
+	margin-bottom: 0px;
+	z-index: 9999;
+	background:rgba(0,0,0,.7);
+	padding: 10px 0px 10px;
+}
+.download img{
+	width: 162px;
+	height:34px
+}

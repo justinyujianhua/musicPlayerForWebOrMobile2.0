@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="description" content="音乐人专属的私密社交软件，交流创作平台。通过小样儿与音乐搭档和好友分享你的音乐灵感，与他们一起创作音乐，享受创作的乐趣。">
+        <meta name="author" content="小样儿demo，demodemo，小样儿，demo，小样">
+        <meta name="keywords" content="小样儿demo，小样儿，demo，音乐创作，音乐交流创作平台，录音，录音云平台，音乐人专属，多音轨，音乐搭档"
+        />
+        <link rel="shortcut icon" href="demo.ico">
+        <title>
+            小样儿demo-音乐人交流创作平台
+        </title>
+        <link href="style.css"rel="stylesheet">
+        <link href="style-phone.css" media="screen and (max-width: 900px)" rel="stylesheet">
+        <!-- Just for debugging purposes. Don't actually copy this line! -->
+        <!--[if lt IE 9]>
+            <script src="../../docs-assets/js/ie8-responsive-file-warning.js">
+            </script>
+        <![endif]-->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media
+        queries -->
+        <!--[if lt IE 9]>
+            <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js">
+            </script>
+            <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js">
+            </script>
+        <![endif]-->
+        <script src="http://cdn.bootcss.com/jquery/2.0.0/jquery.js">
+        </script>
+
+	    <script src="jquery-ui.js"></script>
+        <script src="musicplayer.js">
+        </script>
+
+
+
+</head>
+<body>
+
+<audio id="audio"  src="http://7sbm8a.com1.z0.glb.clouddn.com/Pump%20It.mp3"></audio>
+
+        <div class="photo"> 
+        	<div class="mask">
+        		<img src="mask.png" draggable="false">
+        	</div>
+            <img class="user-photo" src="touxiang.png">
+        </div>
+
+        <div class="head-content">
+		     <div class="top">
+                <img class="demo-logo" src="demo-logo.png">
+            </div>
+            <div class="demo-content">
+                <div class="title-name">
+                    <p>
+                        多久的从前
+                    </p>
+                </div>
+                <div class="user-name">
+                	<p>EasyDong</p>
+                </div>
+                <div class="demo-date">
+                	<p>2015.07.09</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="audio-content">
+    		<div id="audioline" class="audioline">
+    		    <div id="timebar" class="timebar"></div>
+    		</div>
+            <div id="audioplay">
+                 <img id="playbtn" src="music-play.png" onclick="playOrPause('src',this);" >
+            </div>
+            <hr id="hr1" color=#f1f1f1 size="1" style="margin-top:8px">
+
+
+
+
+        <div class="article-content">
+        	<div class="text-content">
+               <div class="demo-name">
+                    <p>
+                        就是睡不着
+                    </p>
+                </div>
+        		<div class="demo-about">
+                    <span>风格：</span><span>流行</span><br/>
+        			<span>作词:方大同 / 作曲:梁翘柏</span><br/>
+                    <span>演唱:方大同 / 演奏:方大同</span><br/>
+                    <span>后期:方大同 / 专辑:方大同</span><br/>
+        		</div>
+                <div class="lyrics">
+                     <div>
+                有些话你选择不对他说<br/>
+              你说某种脆弱 我才感同身受<br/>
+                我永远都愿意当个听众<br/>
+                    安慰你的痛<br/>
+                                    有些话你选择不对他说<br/>
+              你说某种脆弱 我才感同身受<br/>
+                我永远都愿意当个听众<br/>
+                    安慰你的痛<br/>
+                                    有些话你选择不对他说<br/>
+              你说某种脆弱 我才感同身受<br/>
+                我永远都愿意当个听众<br/>
+                    安慰你的痛<br/>
+                                    有些话你选择不对他说<br/>
+              你说某种脆弱 我才感同身受<br/>
+                我永远都愿意当个听众<br/>
+                    安慰你的痛<br/>
+
+                    </div>
+
+
+                                         <div>
+                有些话你选择不对他说<br/>
+              你说某种脆弱 我才感同身受<br/>
+                我永远都愿意当个听众<br/>
+                    安慰你的痛<br/>
+                                    有些话你选择不对他说<br/>
+              你说某种脆弱 我才感同身受<br/>
+                我永远都愿意当个听众<br/>
+                    安慰你的痛<br/>
+                                    有些话你选择不对他说<br/>
+              你说某种脆弱 我才感同身受<br/>
+                我永远都愿意当个听众<br/>
+                    安慰你的痛<br/>
+                                    有些话你选择不对他说<br/>
+              你说某种脆弱 我才感同身受<br/>
+                我永远都愿意当个听众<br/>
+                    安慰你的痛<br/>
+
+                    </div>
+                </div>
+        	</div>
+        </div>
+        </div>
+
+
+
+
+
+            <div class="download">
+                <a target="_blank" href="https://itunes.apple.com/cn/app/xiao-yang-erdemo-yin-le-xie/id735858889?mt=8">
+                    <img src="download-btn.png">
+                </a>
+            </div>
+
+</body>
+</html>
